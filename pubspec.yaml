@@ -1,0 +1,81 @@
+name: career_app
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.2.3
+  image_picker: ^0.8.7
+  image_cropper: ^3.0.1
+  fluttericon: ^2.0.0
+  url_launcher: ^6.1.10
+  curved_navigation_bar: ^1.0.3
+  uuid: ^3.0.7
+  fluttertoast: ^8.2.1
+  firebase_auth: ^4.3.0
+  firebase_core: ^2.8.0
+  cloud_firestore: ^4.4.5
+  firebase_storage: ^11.0.16
+  flutter_image: ^4.1.5
+  babstrap_settings_screen: ^0.1.4
+  flutter_staggered_grid_view: ^0.3.0
+  flutter_svg: ^0.19.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/icons/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Signatra
+      fonts:
+        - asset: assets/fonts/Signatra.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito/Nunito-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nunito/Nunito-Bold.ttf
+          weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

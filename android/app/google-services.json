@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "327286272597",
+    "project_id": "career-app-b4439",
+    "storage_bucket": "career-app-b4439.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327286272597:android:744e9dfbd1581cbca21adc",
+        "android_client_info": {
+          "package_name": "com.example.career_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327286272597-c9k3j5ldbq2f3qv6fadfdrqmbgsrepot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzc_sjyjlBVCnVVX-MFtY1FioqTBQnrBU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327286272597-c9k3j5ldbq2f3qv6fadfdrqmbgsrepot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
